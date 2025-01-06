@@ -1,0 +1,11 @@
+C:\Users\msi PC\Desktop\DigitalCurrencyPriceWebscraper\DigitalCurrencyPriceWebscraper\bin\Debug\DigitalCurrencyPriceWebscraper.exe.config
+C:\Users\msi PC\Desktop\DigitalCurrencyPriceWebscraper\DigitalCurrencyPriceWebscraper\bin\Debug\DigitalCurrencyPriceWebscraper.exe
+C:\Users\msi PC\Desktop\DigitalCurrencyPriceWebscraper\DigitalCurrencyPriceWebscraper\bin\Debug\DigitalCurrencyPriceWebscraper.pdb
+C:\Users\msi PC\Desktop\DigitalCurrencyPriceWebscraper\DigitalCurrencyPriceWebscraper\bin\Debug\HtmlAgilityPack.dll
+C:\Users\msi PC\Desktop\DigitalCurrencyPriceWebscraper\DigitalCurrencyPriceWebscraper\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\msi PC\Desktop\DigitalCurrencyPriceWebscraper\DigitalCurrencyPriceWebscraper\bin\Debug\HtmlAgilityPack.xml
+C:\Users\msi PC\Desktop\DigitalCurrencyPriceWebscraper\DigitalCurrencyPriceWebscraper\obj\Debug\DigitalCurrencyPriceWebscraper.csproj.AssemblyReference.cache
+C:\Users\msi PC\Desktop\DigitalCurrencyPriceWebscraper\DigitalCurrencyPriceWebscraper\obj\Debug\DigitalCurrencyPriceWebscraper.csproj.CoreCompileInputs.cache
+C:\Users\msi PC\Desktop\DigitalCurrencyPriceWebscraper\DigitalCurrencyPriceWebscraper\obj\Debug\DigitalC.1A80EC7B.Up2Date
+C:\Users\msi PC\Desktop\DigitalCurrencyPriceWebscraper\DigitalCurrencyPriceWebscraper\obj\Debug\DigitalCurrencyPriceWebscraper.exe
+C:\Users\msi PC\Desktop\DigitalCurrencyPriceWebscraper\DigitalCurrencyPriceWebscraper\obj\Debug\DigitalCurrencyPriceWebscraper.pdb
