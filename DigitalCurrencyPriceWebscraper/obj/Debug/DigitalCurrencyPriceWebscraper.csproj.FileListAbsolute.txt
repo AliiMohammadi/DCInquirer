@@ -9,3 +9,15 @@ C:\Users\msi PC\Desktop\DigitalCurrencyPriceWebscraper\DigitalCurrencyPriceWebsc
 C:\Users\msi PC\Desktop\DigitalCurrencyPriceWebscraper\DigitalCurrencyPriceWebscraper\obj\Debug\DigitalC.1A80EC7B.Up2Date
 C:\Users\msi PC\Desktop\DigitalCurrencyPriceWebscraper\DigitalCurrencyPriceWebscraper\obj\Debug\DigitalCurrencyPriceWebscraper.exe
 C:\Users\msi PC\Desktop\DigitalCurrencyPriceWebscraper\DigitalCurrencyPriceWebscraper\obj\Debug\DigitalCurrencyPriceWebscraper.pdb
+C:\Users\TUF laptop\Desktop\DCInquirer\DigitalCurrencyPriceWebscraper\bin\Debug\DigitalCurrencyPriceWebscraper.exe.config
+C:\Users\TUF laptop\Desktop\DCInquirer\DigitalCurrencyPriceWebscraper\bin\Debug\DigitalCurrencyPriceWebscraper.exe
+C:\Users\TUF laptop\Desktop\DCInquirer\DigitalCurrencyPriceWebscraper\bin\Debug\DigitalCurrencyPriceWebscraper.pdb
+C:\Users\TUF laptop\Desktop\DCInquirer\DigitalCurrencyPriceWebscraper\bin\Debug\HtmlAgilityPack.dll
+C:\Users\TUF laptop\Desktop\DCInquirer\DigitalCurrencyPriceWebscraper\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\TUF laptop\Desktop\DCInquirer\DigitalCurrencyPriceWebscraper\bin\Debug\HtmlAgilityPack.xml
+C:\Users\TUF laptop\Desktop\DCInquirer\DigitalCurrencyPriceWebscraper\obj\Debug\DigitalCurrencyPriceWebscraper.csproj.AssemblyReference.cache
+C:\Users\TUF laptop\Desktop\DCInquirer\DigitalCurrencyPriceWebscraper\obj\Debug\DigitalCurrencyPriceWebscraper.csproj.SuggestedBindingRedirects.cache
+C:\Users\TUF laptop\Desktop\DCInquirer\DigitalCurrencyPriceWebscraper\obj\Debug\DigitalCurrencyPriceWebscraper.csproj.CoreCompileInputs.cache
+C:\Users\TUF laptop\Desktop\DCInquirer\DigitalCurrencyPriceWebscraper\obj\Debug\DigitalCurrencyPriceWebscraper.csproj.CopyComplete
+C:\Users\TUF laptop\Desktop\DCInquirer\DigitalCurrencyPriceWebscraper\obj\Debug\DigitalCurrencyPriceWebscraper.exe
+C:\Users\TUF laptop\Desktop\DCInquirer\DigitalCurrencyPriceWebscraper\obj\Debug\DigitalCurrencyPriceWebscraper.pdb

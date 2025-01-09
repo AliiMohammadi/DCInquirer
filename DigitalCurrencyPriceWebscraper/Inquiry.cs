@@ -33,6 +33,42 @@ namespace DigitalCurrencyPriceWebscraper
         {
             return GetPrice("shiba-");
         }
+        public static float FTMprice()
+        {
+            return GetPrice("fantom");
+        }
+        public static float TONcprice()
+        {
+            return GetPrice("toncoin");
+        }
+        public static float BRETTprice()
+        {
+            return GetPrice("brett");
+        }
+        public static float TRONprice()
+        {
+            return GetPrice("tron");
+        }
+        public static float XRPprice()
+        {
+            return GetPrice("xrp");
+        }
+        public static float NEARprice()
+        {
+            return GetPrice("near-protocol");
+        }
+        public static float AAVEprice()
+        {
+            return GetPrice("aave");
+        }
+        public static float HBARprice()
+        {
+            return GetPrice("hedera");
+        }
+        public static float BNBprice()
+        {
+            return GetPrice("bnb");
+        }
 
         public static float GetPrice(string currencyname)
         {
