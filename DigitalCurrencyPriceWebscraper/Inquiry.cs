@@ -75,7 +75,7 @@ namespace DigitalCurrencyPriceWebscraper
             return MeltToFloat(GetData($"https://coinmarketcap.com/currencies/{currencyname}/", "//*[@id=\"section-coin-overview\"]/div[2]/span"));
         }
 
-        static string GetData(string weburl, string datapath)
+        public static string GetData(string weburl, string datapath)
         {
             documetn = web.Load(weburl);
 

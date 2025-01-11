@@ -1,15 +1,32 @@
 ﻿using DigitalCurrencyPriceWebscraper.Utilities;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace DigitalCurrencyPriceWebscraper
 {
     internal class Program
     {
-
         static Dictionary<string,Action> Commands = new Dictionary<string,Action>();
 
         static void Main(string[] args)
+        {
+            AddCommands();
+             
+            try
+            {
+                if (args == null || args.Length == 0)
+                    return;
+
+                Execute(args[0]);
+            }
+            catch (Exception e)
+            {
+                Print(e.Message);
+            }
+        }
+
+        static void AddCommands()
         {
 
             Commands.Add("dollar", () => Print(Inquiry.DollarPriceInRials()));
@@ -50,58 +67,58 @@ namespace DigitalCurrencyPriceWebscraper
 
             Commands.Add("bnb", () => Print(Inquiry.BNBprice() + "$"));
 
-            Commands.Add("commadns", () => {foreach (string name in Commands.Keys) Print(name); });
+            Commands.Add("commadns", () => { foreach (string name in Commands.Keys) Print(name); });
 
-            try
-            {
-                if (args == null || args.Length == 0)
-                    return;
-
-                Execute(args[0]);
-            }
-            catch (Exception e)
-            {
-                Print(e.Message);
-            }
         }
 
         static void Execute(string command)
         {
             command = Melt(command);
 
-            if(command.Contains(command))
-                Commands[command]();
-            else
+            if (Commands.ContainsKey(command))
             {
-                float x = 0.000f;
-                string foundedcommand = string.Empty;
-
-                foreach (string name in Commands.Keys)
-                {
-                    int len = name.Length;
-
-                    float w = (len - StringDistance.LevenshteinDistance(command,name)) / len;
-
-                    if (x < w)
-                    {
-                        x = w;
-                        foundedcommand = name;
-                    }
-                }
-
-                if(x > 0.8f)
-                    Commands[foundedcommand]();
-                else
-                {
-                    if (x > 0.5f)
-                        Print($"Unknown command. Do you mean {foundedcommand}");
-                    else
-                        Print($"Unknown command.");
-
-                }
+                Commands[command]();
+                return;
             }
+            
+            StringSimilarityScore sibiling = MostSimilarString(Commands.Keys, command);
+
+            if (sibiling.Score >= 0.75f)
+            {
+                Commands[sibiling.FoundedString]();
+                return;
+            }
+
+            if (sibiling.Score >= 0.5f)
+                Print($"Unknown command. Do you mean {sibiling.FoundedString}?");
+            else
+                Print($"Unknown command.");
+
+            Console.WriteLine(sibiling.Score);
         }
 
+        static StringSimilarityScore MostSimilarString(IEnumerable<string> strinlist,string str)
+        {
+            float x = 0.000f;
+            string foundedcommand = string.Empty;
+
+            foreach (string name in strinlist)
+            {
+                float len = name.Length;
+
+                float w = 0.000f;
+                w = (len - StringDistance.LevenshteinDistance(str, name)) / len;
+
+                if (x < w)
+                {
+                    x = w;
+                    foundedcommand = name;
+                }
+            }
+
+            return new StringSimilarityScore(x,foundedcommand);
+        }
+       
         static void Print(object message)
         {
             Console.WriteLine(message);
@@ -109,6 +126,19 @@ namespace DigitalCurrencyPriceWebscraper
         static string Melt(string str)
         {
             return str.Replace(" ", "").ToLower();
+        }
+
+        class StringSimilarityScore
+        {
+            public float Score { get; set; }
+            public string FoundedString { get; set; }
+
+            public StringSimilarityScore(float score,string founded)
+            {
+                Score = 0.000f;
+                Score = score;
+                FoundedString = founded;
+            }
         }
     }
 }

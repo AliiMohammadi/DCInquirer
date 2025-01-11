@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalCurrencyPriceWebscraper", "DigitalCurrencyPriceWebscraper\DigitalCurrencyPriceWebscraper.csproj", "{4BA43F63-AF92-4D9B-82F5-F578DA835877}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarPrice", "CarPrice\CarPrice.csproj", "{517BF84C-9797-4DAA-A444-412EF74DA04F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4BA43F63-AF92-4D9B-82F5-F578DA835877}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BA43F63-AF92-4D9B-82F5-F578DA835877}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BA43F63-AF92-4D9B-82F5-F578DA835877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{517BF84C-9797-4DAA-A444-412EF74DA04F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{517BF84C-9797-4DAA-A444-412EF74DA04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{517BF84C-9797-4DAA-A444-412EF74DA04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{517BF84C-9797-4DAA-A444-412EF74DA04F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
